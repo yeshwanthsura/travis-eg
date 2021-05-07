@@ -1,6 +1,6 @@
 language: java
 os: linux
-dist: focal
+dist: xenial
 sudo: required
 jdk:
   - openjdk11
@@ -8,4 +8,4 @@ jdk:
 install: skip
 
 script:
-  - chmod +x ./gradlew build
+  - ./gradlew build
