@@ -1,6 +1,7 @@
 language: java
 os: linux
 dist: focal
+sudo: required
 jdk:
   - openjdk11
 
