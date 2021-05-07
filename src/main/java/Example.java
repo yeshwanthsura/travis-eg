@@ -4,4 +4,8 @@ public class Example {
                 "First string"
         );
     }
+
+    public static void addOne(String str) {
+        System.out.println("str" + "1");
+    }
 }
