@@ -4,3 +4,8 @@ dist: bionic
 sudo: required
 jdk:
   - openjdk11
+
+install: skip
+
+script:
+  - ./gradlew build
