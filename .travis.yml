@@ -4,8 +4,3 @@ dist: focal
 sudo: required
 jdk:
   - openjdk11
-
-install: skip
-
-script:
-  - ./gradlew build
