@@ -4,4 +4,8 @@ public class Example {
                 "First string"
         );
     }
+
+    public static void addTwo() {
+        System.out.println("added two");
+    }
 }
