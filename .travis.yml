@@ -8,4 +8,4 @@ jdk:
 install: skip
 
 script:
-  - ./gradlew build
+  - chmod +x ./gradlew build connectedCheck
